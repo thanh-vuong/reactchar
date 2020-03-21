@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.app-container { /* selecting all elements with class "app-container" */
+  background-color: #282c34; /* makes background a shade of grey */
+  font-size: 16px; /* sets font size to 16 pixels */
+  color: white; /* sets text color to white */
+  padding: 1em; /* adds 1 font-size (i.e. 16px) of space inside the element */
+  min-height: calc(100vh - 2em); /* a little complicated! refer to appendix */
+ }
+ .header-text{ /* selecting all elements with class header-text */
+  font-size: 2em; /* font size is double of parent */
+  font-weight: bold; /* make the text bold! */
+ }
+ .text-input{
+  margin-right: 1em; /* adds 1 font-size of space to the right of the element*/
+  padding: 0.5em; /* adds half a font-size of space inside the element */
+  border: 4px solid white; /* adds a solid white border of 4px around the element*/
+  border-radius: 4px; /* curves the border's edges by 4px */
+  font-size: 1em; /* makes the font size the same as the parent */
+ }
+ .send-button {
+  padding: 0.5em;
+  background-color: #AED643;
+  border: 4px solid #AED643;
+  border-radius: 4px;
+  color: black;
+  font-size: 1em;
+ }
+ .messages-container {
+  margin-top: 1em;
+ }
+ 
